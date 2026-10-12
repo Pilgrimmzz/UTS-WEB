@@ -1,8 +1,8 @@
 # Software Requirements Specification (SRS)
-## LAGUIN. — Website Titip Pesan Melalui Lagu
+## LAGUINKUY. — Website Titip Pesan Melalui Lagu
 
 ### 1. Pendahuluan
-**Tujuan:** Dokumen ini menjelaskan kebutuhan fungsional dan nonfungsional untuk website LAGUIN versi awal.
+**Tujuan:** Dokumen ini menjelaskan kebutuhan fungsional dan nonfungsional untuk website LAGUINKUY versi awal.
 
 **Ruang lingkup:** Website memungkinkan pengguna memuat pemutar lagu Spotify melalui tautan, menulis pesan untuk penerima, dan menampilkan kartu kiriman di browser yang sama.
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LAGUIN — titipkan pesan melalui lagu untuk seseorang.">
+  <title>Beranda | LAGUIN. — Satu lagu, sejuta rasa.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="beranda">
+<header class="site-header">
+  <a class="brand" href="beranda.html" aria-label="LAGUIN Beranda">LAGUIN<span>.</span><small>Satu lagu, sejuta rasa.</small></a>
+  <nav aria-label="Navigasi utama">
+    <a href="beranda.html" data-nav="beranda">Beranda</a>
+    <a href="kirimpesan.html" data-nav="kirimpesan">Kirim Pesan</a>
+    <a href="kirimanlagu.html" data-nav="kirimanlagu">Kiriman Lagu</a>
+    <a href="history.html" data-nav="history">History</a>
+  </nav>
+</header>
+<main>
+<section class="hero page-view" id="beranda" data-view="beranda">
+      <p class="eyebrow">EVERY SONG HOLDS A MESSAGE</p>
+      <h1>Ada lagu buat<br><span>seseorang.</span></h1>
+      <p class="hero-copy">Pilih lagunya, tulis pesannya, biarkan musik bercerita.</p>
+      <a class="button button-primary" href="kirimpesan.html">Titipkan lagu <span aria-hidden="true">↗</span></a>
+      <div class="hero-note"><span class="pulse"></span> Ruang kecil untuk perasaan yang sulit diucapkan.</div>
+    </section>
+<section class="section submissions page-view home-recent" id="lagu-terbaru" data-view="beranda">
+      <div class="section-heading">
+        <div><p class="eyebrow">DARI MEREKA, UNTUK SESEORANG</p><h2>Lagu yang sudah dikirim.</h2></div>
+        <p>Beberapa lagu dan pesan yang sudah dititipkan lewat LAGUIN.</p>
+      </div>
+      <div id="homeMessageResults" class="message-grid"></div>
+      <p id="homeEmptyState" class="empty-state">Belum ada lagu yang dikirim. Jadilah yang pertama berbagi cerita lewat lagu.</p>
+      <div class="home-recent-action"><a class="button button-secondary" href="kirimanlagu.html"  data-view-link="kiriman">Lihat semua kiriman <span aria-hidden="true">↗</span></a></div>
+    </section>
+</main>
+<footer><a class="brand footer-brand" href="beranda.html">LAGUIN<span>.</span></a><p>Some feelings sound better as songs.</p></footer>
+</body>
+</html>

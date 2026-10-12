@@ -6,7 +6,7 @@ function applyTheme(theme) {
   document.documentElement.dataset.theme = normalized;
   document.querySelectorAll("[data-theme-toggle]").forEach(button => {
     const lightMode = normalized === "light";
-    button.innerHTML = lightMode ? '🌙 <span>Dark Mode</span>' : '☀️ <span>Light Mode</span>';
+    button.innerHTML = lightMode ? '<span>Dark Mode</span>' : '<span>Light Mode</span>';
     button.setAttribute("aria-label", lightMode ? "Ganti ke mode gelap" : "Ganti ke mode terang");
     button.setAttribute("aria-pressed", String(lightMode));
   });
@@ -101,7 +101,7 @@ function createMessageCard(item) {
   const info = document.createElement("div");
   info.append(createTextElement("h3", "song-title", item.track?.title || "Lagu Spotify"), createTextElement("p", "song-subtitle", item.track?.artist || "Artis tidak tersedia"));
   top.append(mark, info);
-  const dedication = createTextElement("p", "song-subtitle", `Untuk: ${item.recipient}`); dedication.style.marginTop = "18px";
+  const dedication = createTextElement("p", "song-subtitle", `To: ${item.recipient}`); dedication.style.marginTop = "18px";
   const message = createTextElement("p", "message-text", `“${item.message}”`);
   const meta = document.createElement("div"); meta.className = "message-meta";
   const sender = document.createElement("div"); sender.className = "sender-info";
@@ -163,7 +163,7 @@ document.addEventListener("click", (event) => {
       <div class="delete-dialog-icon" aria-hidden="true">!</div>
       <p class="eyebrow">KONFIRMASI HAPUS</p>
       <h2 id="deleteDialogTitle">Hapus kiriman ini?</h2>
-      <p id="deleteDialogDescription" class="delete-dialog-copy">Kiriman <strong class="delete-dialog-song"></strong> akan dihapus dari Beranda, Kiriman Lagu, dan History. Tindakan ini tidak dapat dibatalkan.</p>
+      <p id="deleteDialogDescription" class="delete-dialog-copy">Kiriman <strong class="delete-dialog-song"></strong></p>
       <div class="delete-dialog-actions">
         <button type="button" class="button button-secondary" data-cancel-delete>Batal</button>
         <button type="button" class="button button-danger" data-confirm-delete><span aria-hidden="true"></span> Ya, hapus</button>

@@ -62,9 +62,9 @@ LAGUIN adalah website sederhana untuk menitipkan pesan kepada seseorang melalui 
 
 
 ## Halaman HTML terpisah
-- `beranda.html` — halaman utama dan tiga kiriman terbaru.
+- `index.html` — halaman utama dan tiga kiriman terbaru.
 - `kirimpesan.html` — formulir untuk mengirim lagu dan pesan.
 - `kirimanlagu.html` — semua kiriman lagu.
 - `history.html` — riwayat kiriman yang tersimpan di browser.
 
-Keempat halaman menggunakan `style.css` dan `script.js` yang sama. Buka `beranda.html` melalui Live Server untuk memulai.
+Keempat halaman menggunakan `style.css` dan `script.js` yang sama. Buka `index.html` melalui Live Server untuk memulai.

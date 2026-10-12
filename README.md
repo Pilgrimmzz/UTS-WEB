@@ -4,7 +4,7 @@ LAGUIN adalah website sederhana untuk menitipkan pesan kepada seseorang melalui 
 
 ## 🔗 Link Live Website & Domain
 - **URL Domain (GitHub Pages):** https://pilgrimmzz.github.io/laguinkuy/
-- **Repositori GitHub:** https://github.com/Pilgrimmzz/UTS-WEB
+- **Repositori GitHub:** https://github.com/Pilgrimmzz/laguinkuy
 
 ## 👥 Identitas Anggota Kelompok 8
 | Nama | NIM | Peran Utama |

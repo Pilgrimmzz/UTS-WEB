@@ -1,4 +1,27 @@
 const STORAGE_KEY = "laguin-messages-v1";
+// Dark mode / light mode: pilihan disimpan agar konsisten di seluruh halaman.
+const THEME_KEY = "laguin-theme-v1";
+function applyTheme(theme) {
+  const normalized = theme === "light" ? "light" : "dark";
+  document.documentElement.dataset.theme = normalized;
+  document.querySelectorAll("[data-theme-toggle]").forEach(button => {
+    const lightMode = normalized === "light";
+    button.innerHTML = lightMode ? '🌙 <span>Dark Mode</span>' : '☀️ <span>Light Mode</span>';
+    button.setAttribute("aria-label", lightMode ? "Ganti ke mode gelap" : "Ganti ke mode terang");
+    button.setAttribute("aria-pressed", String(lightMode));
+  });
+}
+let savedTheme = "dark";
+try { savedTheme = localStorage.getItem(THEME_KEY) || "dark"; } catch {}
+applyTheme(savedTheme);
+document.querySelectorAll("[data-theme-toggle]").forEach(button => {
+  button.addEventListener("click", () => {
+    const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+    applyTheme(nextTheme);
+    try { localStorage.setItem(THEME_KEY, nextTheme); } catch {}
+  });
+});
+
 let selectedTrack = null;
 const $ = (id) => document.getElementById(id);
 const spotifyForm = $("spotifyForm");

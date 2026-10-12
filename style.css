@@ -122,3 +122,31 @@ footer p { font-size: .8rem; margin: 0; }
 @keyframes deleteRiseIn { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @media (max-width: 420px) { .delete-dialog { padding: 24px 18px; } .delete-dialog-actions { flex-direction: column-reverse; } .delete-dialog-actions .button { width: 100%; } }
 @media (prefers-reduced-motion: reduce) { .delete-dialog-overlay, .delete-dialog { animation: none; } }
+
+
+/* Tema terang: nilai default tetap dark mode agar tampilan awal tidak berubah. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f7f6fb;
+  --panel: #ffffff;
+  --panel-soft: #eeebf5;
+  --text: #211b2b;
+  --muted: #716a80;
+  --accent: #8050d9;
+  --accent-strong: #6e3cc6;
+  --line: #e1dce9;
+  --green: #168d48;
+}
+:root[data-theme="light"] .site-header { background: rgba(247,246,251,.92); }
+:root[data-theme="light"] .hero { background: radial-gradient(ellipse at 50% 12%, rgba(150,98,244,.12), transparent 56%); }
+:root[data-theme="light"] .message-card { background: linear-gradient(145deg, var(--panel), #f1eef7); }
+:root[data-theme="light"] .button-secondary { background: rgba(30,20,50,.035); }
+:root[data-theme="light"] .button-secondary:hover { background: rgba(30,20,50,.08); }
+:root[data-theme="light"] .delete-dialog { background: linear-gradient(145deg, #ffffff, #f4f0fa 72%); }
+:root[data-theme="light"] .delete-dialog h2 { color: #211b2b; }
+:root[data-theme="light"] .delete-dialog-copy { color: #716a80; }
+:root[data-theme="light"] .delete-dialog-song { color: #211b2b; }
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px 11px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--text); font: inherit; font-size: .8rem; font-weight: 700; cursor: pointer; white-space: nowrap; transition: background .18s ease, transform .18s ease; }
+.theme-toggle:hover { transform: translateY(-1px); background: var(--panel-soft); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+nav { align-items: center; }

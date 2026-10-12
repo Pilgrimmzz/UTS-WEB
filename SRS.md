@@ -6,7 +6,7 @@
 
 **Ruang lingkup:** Website memungkinkan pengguna memuat pemutar lagu Spotify melalui tautan, menulis pesan untuk penerima, dan menampilkan kartu kiriman di browser yang sama.
 
-**Pengguna sasaran:** Pengunjung yang ingin membagikan lagu beserta pesan kepada seseorang.
+**Pengguna sasaran:** Pengunjung yang ingin membagikan lagu beserta pesan singkat kepada seseorang.
 
 ### 2. Deskripsi umum
 Website berjalan pada browser modern dan dibuat menggunakan HTML, CSS, dan JavaScript tanpa server khusus. Spotify Embed memerlukan koneksi internet. Penyimpanan kiriman menggunakan `localStorage`.

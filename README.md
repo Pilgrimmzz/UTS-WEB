@@ -2,6 +2,18 @@
 
 LAGUIN adalah website sederhana untuk menitipkan pesan kepada seseorang melalui lagu. Pengguna menempelkan tautan lagu Spotify, mengisi nama pengirim, nama penerima, dan pesan, lalu kiriman tampil sebagai kartu.
 
+## 🔗 Link Live Website & Domain
+- **URL Domain (GitHub Pages):** [https://kasyfillah23.github.io/threeofus-space/](https://kasyfillah23.github.io/threeofus-space/)
+- **Repositori GitHub:** [https://github.com/kasyfillah23/threeofus-space](https://github.com/kasyfillah23/threeofus-space)
+
+## 👥 Identitas Anggota Kelompok 8
+| Nama | NIM | Peran Utama |
+| :--- | :--- | :--- |
+| **Muhammad Avin Nugraha** | `25091397128` | Project Lead |
+| **Dafa Prima Nugraha** | `25091397133` | CSS Stylist |
+| **Jacinda Jihan Rahmadani** | `25091397135` | Web Developer |
+
+
 ## Fitur
 - Navigasi ke Beranda, Buat Kiriman, dan Kiriman Lagu.
 - Memuat lagu Spotify melalui tautan track dan Spotify Embed.

@@ -9,7 +9,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 - **URL Domain (GitHub Pages):**  https://pilgrimmzz.github.io/laguinkuy/
 - **Repositori GitHub:** https://github.com/Pilgrimmzz/laguinkuy
 
-## 👥 Identitas Anggota Kelompok 88
+## 👥 Identitas Anggota Kelompok 8
 | Nama | NIM | Peran Utama |
 | :--- | :--- | :--- |
 | **Muhammad Avin Nugraha** | `25091397128` | Project Lead |

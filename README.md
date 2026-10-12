@@ -14,7 +14,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 | :--- | :--- | :--- |
 | **Muhammad Avin Nugraha** | `25091397128` | Project Lead |
 | **Dafa Prima Nugraha** | `25091397133` | CSS Stylist & Javascript |
-| **Jacinda Jihan Ramatadi** | `25091397135` | Web Devloper |
+| **Jacinda Jihan Ramatadi** | `25091397135` | Web Developer |
 
 ## Daftar isi
 

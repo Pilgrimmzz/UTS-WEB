@@ -70,7 +70,7 @@ laguin/
 
 ## Penjelasan setiap file
 
-### 1. `beranda.html`
+### 1. `index.html`
 
 File ini membentuk halaman utama. Bagian utamanya adalah:
 
@@ -197,7 +197,7 @@ Event `submit` pada `spotifyForm` menjalankan langkah-langkah berikut:
 6. JavaScript membuat elemen `<iframe>` yang alamatnya mengarah ke Spotify Embed, lalu memasukkannya ke `spotifyPlayer`.
 7. Pesan status diperbarui agar pengguna mengetahui bahwa pemutar sudah dimuat.
 
-**Apa itu Spotify Embed?** Spotify Embed adalah pemutar yang disediakan Spotify agar lagu dapat ditampilkan langsung di website lain. LAGUIN tidak mengunggah atau menyimpan file audio lagu; pemutaran tetap dikelola Spotify dan mengikuti ketersediaan serta ketentuan layanannya.
+**Apa itu Spotify Embed?** Spotify Embed adalah pemutar yang disediakan Spotify agar lagu dapat ditampilkan langsung di website lain. LAGUINKUY tidak mengunggah atau menyimpan file audio lagu; pemutaran tetap dikelola Spotify dan mengikuti ketersediaan serta ketentuan layanannya.
 
 > Pengambilan metadata dari Spotify oEmbed dan iTunes Search bergantung pada layanan eksternal, koneksi internet, dan respons API. Jika metadata tidak berhasil diperoleh, website menggunakan informasi pengganti. Pemutar Spotify tetap dibuat berdasarkan ID track yang valid.
 
@@ -291,9 +291,10 @@ Konsekuensinya:
 - Belum ada akun pengguna, autentikasi, maupun backend.
 - Fitur pemutaran, metadata, dan tautan eksternal memerlukan koneksi internet.
 
+
 ## Rencana pengembangan
 
-Pengembangan berikutnya dapat mencakup pencarian lagu langsung di website melalui integrasi resmi yang sesuai dengan ketentuan Spotify, backend dan database agar kiriman bisa dibagikan antarpengguna, akun pengguna, serta pengujian aksesibilitas dan keamanan yang lebih menyeluruh.
+Pengembangan berikutnya dapat mencakup pencarian lagu langsung di website melalui integrasi resmi yang sesuai dengan ketentuan Spotify, backend dan database agar kiriman bisa dibagikan antarpengguna, akun pengguna, search bar nama yang terunggah, serta pengujian aksesibilitas dan keamanan yang lebih menyeluruh.
 
 ## Pengujian yang disarankan
 
@@ -305,7 +306,8 @@ Pengembangan berikutnya dapat mencakup pencarian lagu langsung di website melalu
 - Ubah tema pada satu halaman, lalu buka halaman lain untuk memastikan pilihan tema konsisten.
 - Hapus satu kiriman dari History; coba tombol Batal dan konfirmasi penghapusan.
 - Uji tampilan di desktop dan layar ponsel.
+  
 
 ## Catatan untuk presentasi
 
-LAGUIN menggunakan HTML untuk struktur halaman, CSS untuk desain dan responsivitas, serta JavaScript untuk validasi input, menampilkan Spotify Embed, mengelola kartu kiriman, menyimpan data ke `localStorage`, menghapus kiriman, dan mengganti tema. Spotify Embed dipilih sebagai solusi pada versi mini project ini karena katalog lagu belum dicari langsung melalui LAGUIN.
+LAGUINKUY menggunakan HTML untuk struktur halaman, CSS untuk desain dan responsivitas, serta JavaScript untuk validasi input, menampilkan Spotify Embed, mengelola kartu kiriman, menyimpan data ke `localStorage`, menghapus kiriman, dan mengganti tema. Spotify Embed dipilih sebagai solusi pada versi mini project ini karena katalog lagu belum dicari langsung melalui LAGUINKUY.

@@ -6,7 +6,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 
 
 ## 🔗 Link Live Website & Domain
-- **URL Domain (GitHub Pages):** [https://kasyfillah23.github.io/threeofus-space/](https://kasyfillah23.github.io/threeofus-space/)
+- **URL Domain (GitHub Pages):**  https://pilgrimmzz.github.io/laguinkuy/
 - **Repositori GitHub:** https://github.com/Pilgrimmzz/laguinkuy
 
 ## 👥 Identitas Anggota Kelompok 88

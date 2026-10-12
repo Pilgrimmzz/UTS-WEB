@@ -4,7 +4,7 @@ LAGUIN adalah website sederhana untuk menitipkan pesan kepada seseorang melalui 
 
 ## 🔗 Link Live Website & Domain
 - **URL Domain (GitHub Pages):** [https://kasyfillah23.github.io/threeofus-space/](https://kasyfillah23.github.io/threeofus-space/)
-- **Repositori GitHub:** [https://github.com/kasyfillah23/threeofus-space](https://github.com/kasyfillah23/threeofus-space)
+- **Repositori GitHub:** https://github.com/Pilgrimmzz/UTS-WEB
 
 ## 👥 Identitas Anggota Kelompok 8
 | Nama | NIM | Peran Utama |

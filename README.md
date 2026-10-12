@@ -1,8 +1,15 @@
-# LAGUIN. — Satu lagu, sejuta rasa
+# LAGUINKUY. — Satu lagu, sejuta rasa
 
-LAGUIN adalah mini project website untuk menyampaikan pesan kepada seseorang melalui lagu. Pengguna memasukkan tautan lagu Spotify, memuat pemutar lagu, lalu menulis nama penerima dan pesan. Kiriman ditampilkan dalam bentuk kartu pada halaman **Kiriman Lagu**, **History**, dan tiga kiriman terbaru di **Beranda**.
+LAGUINKUY adalah mini project website untuk menyampaikan pesan kepada seseorang melalui lagu. Pengguna memasukkan tautan lagu Spotify, memuat pemutar lagu, lalu menulis nama penerima dan pesan. Kiriman ditampilkan dalam bentuk kartu pada halaman **Kiriman Lagu**, **History**, dan tiga kiriman terbaru di **Beranda**.
 
 Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScript), tanpa framework frontend dan tanpa database server.
+
+## 👥 Identitas Anggota Kelompok 7
+| Nama | NIM | Peran Utama |
+| :--- | :--- | :--- |
+| **Muhammad Avin Nugraha** | `25091397128` | Project Lead |
+| **Dafa Prima Nugraha** | `25091397133` | CSS Stylist & Javascript |
+| **Jacinda Jihan Ramatadi** | `25091397135` | Web Devloper |
 
 ## Daftar isi
 
@@ -36,7 +43,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 
 ```text
 laguin/
-├── beranda.html       # Halaman utama
+├── index.html       # Halaman utama
 ├── kirimpesan.html    # Form untuk mengirim lagu dan pesan
 ├── kirimanlagu.html   # Daftar semua kiriman yang tersimpan
 ├── history.html       # Riwayat kiriman dan fitur hapus

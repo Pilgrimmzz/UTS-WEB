@@ -32,7 +32,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 
 ## Fitur utama
 
-- **Beranda:** halaman pengenalan LAGUIN dan menampilkan maksimal tiga kiriman terbaru.
+- **Beranda:** halaman pengenalan LAGUINKUY dan menampilkan maksimal tiga kiriman terbaru.
 - **Kirim Pesan:** form untuk memasukkan tautan lagu Spotify, nama pengirim, nama penerima, dan pesan.
 - **Spotify Embed:** menampilkan pemutar lagu Spotify langsung di dalam halaman.
 - **Kiriman Lagu:** menampilkan semua kiriman yang tersimpan di browser tersebut.

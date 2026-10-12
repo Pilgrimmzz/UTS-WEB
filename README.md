@@ -4,7 +4,12 @@ LAGUINKUY adalah mini project website untuk menyampaikan pesan kepada seseorang 
 
 Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScript), tanpa framework frontend dan tanpa database server.
 
-## 👥 Identitas Anggota Kelompok 7
+
+## 🔗 Link Live Website & Domain
+- **URL Domain (GitHub Pages):** [https://kasyfillah23.github.io/threeofus-space/](https://kasyfillah23.github.io/threeofus-space/)
+- **Repositori GitHub:** https://github.com/Pilgrimmzz/laguinkuy
+
+## 👥 Identitas Anggota Kelompok 88
 | Nama | NIM | Peran Utama |
 | :--- | :--- | :--- |
 | **Muhammad Avin Nugraha** | `25091397128` | Project Lead |

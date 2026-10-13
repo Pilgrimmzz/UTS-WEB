@@ -12,8 +12,8 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript murni (vanilla JavaScri
 ## 👥 Identitas Anggota Kelompok 8
 | Nama | NIM | Peran Utama |
 | :--- | :--- | :--- |
-| **Muhammad Avin Nugraha** | `25091397128` | Project Lead |
-| **Dafa Prima Nugraha** | `25091397133` | CSS Stylist & Javascript |
+| **Muhammad Avin Nugraha** | `25091397128` | Javascript |
+| **Dafa Prima Nugraha** | `25091397133` | CSS Stylist |
 | **Jacinda Jihan Rahmadani** | `25091397135` | Web Developer |
 
 ## Daftar isi
